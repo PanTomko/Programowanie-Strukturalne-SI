@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573929892 source:c:\users\pan tomko\desktop\studia\cb c++\zadanie1b\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
