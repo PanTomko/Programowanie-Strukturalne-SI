@@ -31,6 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Edge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Edge.h" />
+		<Unit filename="Graf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Graf.h" />
+		<Unit filename="Vertex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Vertex.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
