@@ -8,6 +8,8 @@ typedef struct Vertex
     char symbol;
     struct Vertex *next;
     EdgeList edges;
+    char visted;
+
 }Vertex;
 
 typedef struct VertexList
