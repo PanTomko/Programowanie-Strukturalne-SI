@@ -307,4 +307,6 @@ void DFS(Graf * graf)
     for(Vertex * it = graf->vertexs._begin; it != NULL; it = it->next)
         if(it->visted == 0)
             visit_vertex(it);
+
+    printf("end");
 }
