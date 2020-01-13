@@ -9,21 +9,23 @@ int get_pessel_sum(char * p)
 
 int is_pesel_valid(char * p)
 {
+    int good_day = 0;
     for(int i = 0; i < 11; i++)
         if(!(p[i] >= '0' && p[i] <= '9')) return 0;
 
     int sum = get_pessel_sum(p);
 
     printf("%d : ", (sum%10));
+
     return ((sum%10) == (p[10]-48));
 }
 
 int main()
 {
-    const char pesel_1[11] = "44051401358";
-    const char pesel_2[11] = "99062324429";
-    const char pesel_3[11] = "85072358457";
-    const char pesel_4[11] = "89121909667";
+    const char pesel_1[12] = "44051401358";
+    const char pesel_2[12] = "99062324429";
+    const char pesel_3[12] = "85072358457";
+    const char pesel_4[12] = "89121909667";
 
     printf("PESEL 44051401358 : %d\n", is_pesel_valid(pesel_1));
     printf("PESEL 99062324429 : %d\n", is_pesel_valid(pesel_2));

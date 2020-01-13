@@ -3,6 +3,10 @@
 
 #include "Graf.h"
 
+/**
+ * Grafy dowolnej długości
+**/
+
 int main()
 {
     Graf graf;
