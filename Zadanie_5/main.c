@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int is_num( char c )
+int is_letter( char c )
 {
     if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 		return 1;
@@ -15,7 +15,7 @@ int main()
 	printf("Podaj LITERE : ");
 	code = getchar();
 
-	if (is_num(code))
+	if (is_letter(code))
 		printf("Fainie tego chcialem.");
 	else
 		printf("Kawalarz sie znalaz !");
